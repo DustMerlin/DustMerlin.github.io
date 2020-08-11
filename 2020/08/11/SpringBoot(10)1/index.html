@@ -6,18 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Markdown(1) | Hexo</title>
+  <title>SpringBoot基础知识(10)1 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="介绍 Introduction使用VSCode,下载markdown扩展，快速入门markdown 标题 Title这应该是最常用的标记了 # 文章标题就是这个标记，字体最大 ## 然后就是次一级的，如各个段落的标题 ### 在熟悉Markdown语法这个标题下的小标题 #### 普通段落的字体大小介于三级标题与四级标题 ##### 后边的就很少用了，因为字太小了，不适合做标题 ###### 默认">
+  <meta name="description" content="My first spring project我的第一个springboot测试项目所遇到的问题和知识点总结  ## 一些未细看的视频 BV1Hz411b7C4  &gt; 46-50 JDBC service dao 数据库jdbc查询  &gt; 52 mybatis genetator   &gt; 53 资源拷贝插件，generator 生成的xml 拷贝在 src&#x2F;rescourse 中">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Markdown(1)">
-<meta property="og:url" content="http://yoursite.com/2020/08/10/Markdown(1)/index.html">
+<meta property="og:title" content="SpringBoot基础知识(10)1">
+<meta property="og:url" content="http://yoursite.com/2020/08/11/SpringBoot(10)1/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="介绍 Introduction使用VSCode,下载markdown扩展，快速入门markdown 标题 Title这应该是最常用的标记了 # 文章标题就是这个标记，字体最大 ## 然后就是次一级的，如各个段落的标题 ### 在熟悉Markdown语法这个标题下的小标题 #### 普通段落的字体大小介于三级标题与四级标题 ##### 后边的就很少用了，因为字太小了，不适合做标题 ###### 默认">
+<meta property="og:description" content="My first spring project我的第一个springboot测试项目所遇到的问题和知识点总结  ## 一些未细看的视频 BV1Hz411b7C4  &gt; 46-50 JDBC service dao 数据库jdbc查询  &gt; 52 mybatis genetator   &gt; 53 资源拷贝插件，generator 生成的xml 拷贝在 src&#x2F;rescourse 中">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2020-08-10T03:27:03.000Z">
-<meta property="article:modified_time" content="2020-08-10T04:22:22.892Z">
+<meta property="article:published_time" content="2020-08-11T00:57:40.000Z">
+<meta property="article:modified_time" content="2020-08-11T01:50:10.203Z">
 <meta property="article:author" content="John Doe">
+<meta property="article:tag" content="SpringBoot">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
@@ -154,137 +155,1529 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-Markdown(1)" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-SpringBoot(10)1" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      Markdown(1)
+      SpringBoot基础知识(10)1
     </h1>
   
 
         
-        <a href="/2020/08/10/Markdown(1)/" class="archive-article-date">
-  	<time datetime="2020-08-10T03:27:03.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-08-10</time>
+        <a href="/2020/08/11/SpringBoot(10)1/" class="archive-article-date">
+  	<time datetime="2020-08-11T00:57:40.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-08-11</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="介绍-Introduction"><a href="#介绍-Introduction" class="headerlink" title="介绍 Introduction"></a>介绍 Introduction</h2><pre><code>使用VSCode,下载markdown扩展，快速入门markdown</code></pre>
-<h3 id="标题-Title"><a href="#标题-Title" class="headerlink" title="标题 Title"></a>标题 Title</h3><pre><code>这应该是最常用的标记了
-# 文章标题就是这个标记，字体最大
-## 然后就是次一级的，如各个段落的标题
-### 在熟悉Markdown语法这个标题下的小标题
-#### 普通段落的字体大小介于三级标题与四级标题
-##### 后边的就很少用了，因为字太小了，不适合做标题
-###### 默认最小为六级标题，但是可以在设置中进行设置</code></pre>
-<blockquote>
-<p>  1.要记住打完# 后边一定有一个空格，不然不能正常显示;<br>    2.还未设置的标题大小,不能使用，用也不给你显示</p>
-</blockquote>
-<h3 id="斜体-amp-加粗"><a href="#斜体-amp-加粗" class="headerlink" title="斜体&amp;加粗"></a><em>斜体</em>&amp;<strong>加粗</strong></h3><p><em>来看看效果</em></p>
-<pre><code>斜体格式：*来看看效果*</code></pre>
-<p><strong>来看看效果</strong></p>
-<pre><code>加粗格式：**来看看效果**</code></pre>
-<blockquote>
-<p>既然一对“*”是斜体，两对“*”是加粗，那么三对“*”呢？</p>
-</blockquote>
-<p><strong><em>来看看效果</em></strong></p>
-<pre><code>斜体加粗格式：***来看看效果***</code></pre>
-<blockquote>
-<p>刚才在这里遇到了问题，既然一对“<em>”是斜体，两对“</em>”是加粗，那么三对“<em>”</em>呢？<br>我在引号里打的星星好像也被识别出来了，然后给我也显示成斜体了，但是这并不是我想要的结果。那么第一时间想到了好多语言中使用的转义字符“\”，加了之后果然能正常显示了。</p>
-</blockquote>
-<blockquote>
-<p>还注意到一个细节，不能匹配的“*”会原样显示。但是能匹配的也有例外。这又是上一句话里发现的问题,这句————那么三对“**”**呢？（我是发现这里一个星号有问题试了两个）**”**这几个都显示成了蓝色，也就是合法的语法格式，但是在预览中，句子还是有**”**。还有两个星号之间只有一个”也会打出星号来*”*。</p>
-</blockquote>
-<h3 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h3><pre><code>演示效果***     分割线如下↓</code></pre>
-<hr>
-<pre><code>演示效果---     分割线如下↓</code></pre>
-<hr>
-<blockquote>
-<p>可以是三个及以上的“*”或“-”，中间也可以有任意多个空格，只要你愿意多打<br>但“*”或“-”,混合使用没有作用</p>
-</blockquote>
-<h3 id="分层次"><a href="#分层次" class="headerlink" title="分层次"></a>分层次</h3><pre><code> * 一
-    * 1
-        * (1)</code></pre>
-<blockquote>
-<p>显示效果如下</p>
-</blockquote>
-<ul>
-<li><p>一</p>
-<ul>
-<li><p>1</p>
-<ul>
-<li>(1)<blockquote>
-<p>但是总有点小问题,比如习惯性的加个“.”之后</p>
-</blockquote>
-</li>
-</ul>
-</li>
-<li><p>一.</p>
-<ul>
-<li>1.<ul>
-<li>(1).</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<blockquote>
-<p>显示效果如下</p>
-</blockquote>
-<ul>
-<li>一.<ul>
-<li>1.<ul>
-<li>(1).</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<blockquote>
-<p>暂待解决的问题!!!</p>
-</blockquote>
-<h3 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h3><pre><code>item       | price     
--          | -
-Computer   | $1600    
-Phone      | $12       
-Pipe       | $1    </code></pre>
-<blockquote>
-<p>效果如下，但是还有问题需要解决</p>
-</blockquote>
-<table>
-<thead>
-<tr>
-<th>item</th>
-<th>price</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>Computer</td>
-<td>$1600</td>
-</tr>
-<tr>
-<td>Phone</td>
-<td>$12</td>
-</tr>
-<tr>
-<td>Pipe</td>
-<td>$1</td>
-</tr>
-</tbody></table>
-<h3 id="链接与图片"><a href="#链接与图片" class="headerlink" title="链接与图片"></a>链接与图片</h3><pre><code>[显示文本](链接地址)
-[百度](https://www.baidu.com)
+        <h1 id="My-first-spring-project"><a href="#My-first-spring-project" class="headerlink" title="My first spring project"></a>My first spring project</h1><pre><code>我的第一个springboot测试项目所遇到的问题和知识点总结
 
-![](图片链接地址)
-![](http://ww4.sinaimg.cn/bmiddle/aa397b7fjw1dzplsgpdw5j.jpg)</code></pre>
-<h2 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h2><p><a target="_blank" rel="noopener" href="https://blog.csdn.net/supergao222/article/details/78596704">Visual Studio Code编写并实时预览Markdown</a><br><a target="_blank" rel="noopener" href="https://blog.csdn.net/zcf1002797280/article/details/49404329">使用CSDN Markdown写博客</a></p>
-<p>2019.6.30 21：54 初稿 Merlin Dust<br>2020.8.10 11：46 修改 Merlin Dust 上传到 hexo 博客<br>若后续有内容，添加到这之后</p>
+## 一些未细看的视频 BV1Hz411b7C4
+
+&gt; 46-50 JDBC service dao 数据库jdbc查询
+
+&gt; 52 mybatis genetator 
+
+&gt; 53 资源拷贝插件，generator 生成的xml 拷贝在 src/rescourse 中
+
+    启动类上
+    @MappingScan(&quot;com.bjsxt.springbootmybatis.mapper&quot;)
+    //制定扫描接口和映射配置文件
+
+&gt; 映射配置文件不在对应的包下，而在src/rescourse 中   
+    则在.yml中需要配置
+
+    #当前案例中可能不需要配置
+    mybatis:
+        mapper-location: classpath:/mapper/*.xml
+        type-aliases-package: com.bjsxt.springbootmybatis.pojo
+        #定义包别名，使用pojo时可以直接使用pojo的类型名称不用加包名
+
+
+
+## MySQL 问题
+    时区 set global time_zone = &#39;+8:00&#39;;
+
+
+    properties参数设置
+    连接  serverTimezone=UTC
+    字符  characterEncoding=utf8
+        useUnicode=true
+
+
+
+    password expire:用来设置用户口令过期，失效，强制用户登录数据库时候必须修改口令.
+
+    create user zhou7–用户名 
+    identified by zhou7777–口令 
+    default tablespace users–默认表空间 
+    temporary tablespace temp–临时表空间 
+    password expire;
+    ————————————————
+    版权声明：本文为CSDN博主「单身贵族男」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+    原文链接：https://blog.csdn.net/zhou920786312/java/article/details/72770645
+
+&gt; 使用ALTER USER命令修改用户的密码、密码过期，锁定，解锁          
+
+    使用ALTER USER命令可以用来修改用户的口令,设置口令过期,锁定以及解锁用户等等。
+    1、修改用户的口令，将用户的口令修改为新的密码
+    ALTER USER SCOTT IDENTIFIED BY NEWPASSWORD;
+
+
+
+    SQL&gt; ALTER USER SCOTT IDENTIFIED BY SOCTT;
+    用户已更改。
+
+    2、设置用户口令过期，通过设置用户过期，这样该用户在下次登录的时候就必须要修改密码。
+    ALTER USER SCOTT PASSWORD EXPIRE;
+
+    SQL&gt; ALTER USER SCOTT PASSWORD EXPIRE;
+    用户已更改。
+
+
+    3、锁定用户，将用户锁定之后，被锁定的用户是不能够再次登录到系统中。
+    ALTER USER SCOTT ACCOUNT LOCK;
+
+
+
+    SQL&gt; ALTER USER SCOTT ACCOUNT LOCK;
+    用户已更改。
+
+
+
+
+    4、解锁用户，解锁用户的锁定状态。
+    ALTER USER SCOTT ACCOUNT UNLOCK;
+
+
+
+    SQL&gt; ALTER USER SCOTT ACCOUNT UNLOCK;
+    ————————————————
+    版权声明：本文为CSDN博主「陈字文」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+    原文链接：https://blog.csdn.net/ziwen00/java/article/details/8460754
+
+## 资料
+
+[Spring文档](https://spring.io/guides)
+
+[github](https://github.com)
+
+[git文档](http://git-scm.com/download)
+
+[git_help文档](https://help.github.com/en/github/authenticating-to-github/checking-for-existing-ssh-keys)
+
+[boolstrap组件](https://v3.bootcss.com/components/#navbar-default)
+
+[github 授权登录流程](https://developer.github.com/apps/building-oauth-apps/)
+
+[github 授权登录流程 doc](https://developer.github.com/apps/building-oauth-apps/authorizing-oauth-apps/)
+
+[H2 database in Maven](https://mvnrepository.com/artifact/com.h2database/h2/1.4.199)
+
+[h2 quickstart](http://www.h2database.com/html/quickstart.html)
+
+[MySQL 菜鸟教程](https://www.runoob.com/mysql/mysql-tutorial.html)
+
+[Java 注解（Annotation)](https://www.runoob.com/w3cnote/java-annotation.html)
+
+[Spring boot mybaies](https://docs.spring.io/spring-boot/docs/2.0.0.RC1/reference/htmlsingle/#boot-features-embedded-database-support)   
+
+[thymeleaf](https://www.thymeleaf.org/)
+
+
+## tool 
+[Git](https://git-scm.com/download)
+
+[Visual Paradigm](https://www.visual-paradigm.com) 
+
+
+# 2020.7.16
+
+&gt; JDBC数据库连接,mybatis持久层，资源拷贝插件
+
+## JDBC数据库连接
+
+&gt; JDBC相关配置
+
+    JDBC启动器依赖
+    &lt;dependency&gt;
+                &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;
+                &lt;artifactId&gt;spring-boot-starter-jdbc&lt;/artifactId&gt;
+    &lt;/dependency&gt;
+
+
+    数据库连接依赖
+    &lt;dependency&gt;
+                &lt;groupId&gt;mysql&lt;/groupId&gt;
+                &lt;artifactId&gt;mysql-connector-java&lt;/artifactId&gt;
+                &lt;version&gt;8.0.19&lt;/version&gt;
+    &lt;/dependency&gt;
+
+
+    配置数据源
+    spring.datasource.url=jdbc:mysql://localhost:3306/jxgl
+    spring.datasource.url=jdbc:mysql://localhost:3306/jxgl?useSSL=false&amp;serverTimezone=UTC&amp;useUnicode=true&amp;characterEncoding=utf-8
+    spring.datasource.username=root
+    spring.datasource.password=9911
+    数据库驱动器
+    spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+
+    为使用Druid的进行数据源处理
+            spring boot自带数据源处理，但也可以导入外部的druid
+            &lt;denpendency&gt;
+                &lt;groupId&gt;com.alibaba&lt;/groupId&gt;
+                &lt;artifactId&gt;druid&lt;/artifactId&gt;
+                &lt;version&gt;1.1.12&lt;/version&gt;
+            &lt;/denpendency&gt;
+
+            jdbc.url=jdbc:mysql://localhost:3306/jxgl?useSSL=false&amp;serverTimezone=UTC&amp;useUnicode=true&amp;characterEncoding=utf-8
+            jdbc.username=root
+            jdbc.password=9911
+            数据库驱动器
+            jdbc.driverclassname=com.mysql.cj.jdbc.Driver
+        JdbcConfig.class
+            @Configuration
+            @PropertySource(&quot;classpath:/自定义配置文件（和application》properties配置文件同级）&quot;)  //加载指定的properties配置文件
+            public class JdbcConfig &#123;
+
+                @Value(&quot;$&#123;jdbc.username&#125;&quot;)
+                private String UserName;
+                @Value(&quot;$&#123;jdbc.password&#125;&quot;)
+                private String Password;
+                @Value(&quot;$&#123;jdbc.url&#125;&quot;)
+                private String Url;
+                @Value(&quot;$&#123;jdbc.driverclassname&#125;&quot;)
+                private String DriverClassName;
+
+
+                @Bean
+                public DataSource getDataSource()&#123;
+                    DruidDataSource source = new DruidDataSource();
+
+                    source.setUserName(UserName);
+                    source.setPassword(Password);
+                    source.setUrl(Url);
+                    source.setDriverClassName(DriverClassName);
+
+                    return source;
+                &#125;
+            &#125;
+
+
+
+    改进 注入配置，配置信息复用方式
+            JdbcProperties.java 文件
+                    import org.springframework.boot.context.properties.ConfigurationProperties;
+
+
+                    /*
+                        jdbc配置属性类
+                        //不太对劲??????
+                        &lt;dependency&gt;
+                            &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;
+                            &lt;artifactId&gt;spring-boot-configuration-processor&lt;/artifactId&gt;
+                            &lt;optional&gt;true&lt;/optional&gt;
+                        &lt;/dependency&gt;
+
+                        jdbc.url=jdbc:mysql://localhost:3306/jxgl?useSSL=false&amp;serverTimezone=UTC&amp;useUnicode=true&amp;characterEncoding=utf-8
+                        jdbc.username=root
+                        jdbc.password=9911
+                        数据库驱动器
+                        jdbc.driverclassname=com.mysql.cj.jdbc.Driver
+
+                    */
+
+                    //以下警告可在设置中关闭，该注解只能读取application.properties文件和application.yml,不能读取其他配置文件
+
+
+                    @ConfigurationProperties(prefix = &quot;jdbc&quot;)//通过前缀匹配对应的配置
+                    public class JdbcProperties &#123;
+
+                        //通过反射使用setter注入，名字必须一致！！！ ！！！ ！！！！和数据库配JavaBean的方式一样
+                        private String username;
+                        private String password;
+                        private String url;
+                        private String driverclassname;
+
+                        public String getUsername() &#123;
+                            return username;
+                        &#125;
+
+                        public void setUsername(String username) &#123;
+                            this.username = username;
+                        &#125;
+
+                        public String getPassword() &#123;
+                            return password;
+                        &#125;
+
+                        public void setPassword(String password) &#123;
+                            this.password = password;
+                        &#125;
+
+                        public String getUrl() &#123;
+                            return url;
+                        &#125;
+
+                        public void setUrl(String url) &#123;
+                            this.url = url;
+                        &#125;
+
+                        public String getDriverclassname() &#123;
+                            return driverclassname;
+                        &#125;
+
+                        public void setDriverclassname(String driverclassname) &#123;
+                            this.driverclassname = driverclassname;
+                        &#125;
+                    &#125;
+
+
+            JdbcConfig.class
+
+                    @Configuration
+
+                    //用于注入@Autowired  private JdbcProperties jdbcProperties;
+                    //指定加载哪个配置属性类
+                    @EnableConfigurationProperties(JdbcProperties.class)  
+
+
+                    public class JdbcConfig &#123;
+
+                        @Autowired
+                        private JdbcProperties jdbcProperties;
+
+                        //通过构造方法也可以注入该类,和@Autowired可以达到同样的效果
+                        //public JabcConfiguration(JdbcProperties jdbcProperties)&#123;
+                        //    this.jdbcProperties = jdbcProperties;
+                        //&#125;
+
+                        //通过方法形参也可以注入
+                        public DataSource getDataSource(JdbcProperties jdbcProperties)&#123;···&#125;
+
+                        @Bean
+                        public DataSource getDataSource()&#123;
+                            DruidDataSource source = new DruidDataSource();
+
+                            source.setUserName(this.jdbcProperties.getUsername);
+                            source.setPassword(this.jdbcProperties.getPassword);
+                            source.setUrl(this.jdbcProperties.getUrl);
+                            source.setDriverClassName(this.jdbcProperties.getDriverclassname);
+
+                            return source;
+                        &#125;
+                    &#125;
+
+&gt; @ConfigurationProperties 注解的优雅使用方式
+
+    jdbc.url=jdbc:mysql://localhost:3306/jxgl?useSSL=false&amp;serverTimezone=UTC&amp;useUnicode=true&amp;characterEncoding=utf-8
+    jdbc.username=root
+    jdbc.password=9911
+    数据库驱动器
+    jdbc.driverclassname=com.mysql.cj.jdbc.Driver
+
+    //该注解可以直接使注入到配置类中，即使该类JdbcConfig中没有属性，注入后依旧会有对应的文件
+    @ConfigurationProperties(preifix=&quot;jdbc&quot;)
+    public class JdbcConfig &#123;
+        public DataSource getDataSource()&#123;
+            DruidDataSource source = new DruidDataSource();
+            return source;
+        &#125;
+    &#125; 
+
+
+
+&gt; 通过spring boot 配置文件配置数据源
+
+    在sping boot 1.x spring-boot-stater-jdbc中，默认数据源为org.apache.tomcat.jdbc.StstSources(效率低）
+
+    在sping boot 2.x spring-boot-stater-jdbc中，默认数据源为com.zaxxer.hikariDataSources  (效率高，堪比阿里巴巴Druid？？)
+
+    spring.datasources.type=可选择数据源，默认hikariDataSources为数据源,如选默认可不配置
+
+    spring boot 默认的的数据源所需的配置信息如下
+        spring.datasource.url=jdbc:mysql://localhost:3306/jxgl?useSSL=false&amp;serverTimezone=UTC&amp;useUnicode=true&amp;characterEncoding=utf-8
+        spring.datasource.username=root
+        spring.datasource.password=9911
+        #mysql8.0 以上的版本
+        spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+
+    使用第三方Druid的配置方式
+        spring.datasources.type=com.alibaba.druid.pool.DruidDataSource   //!!!!!!!
+        spring.datasource.url=jdbc:mysql://localhost:3306/jxgl?useSSL=false&amp;serverTimezone=UTC&amp;useUnicode=true&amp;characterEncoding=utf-8
+        spring.datasource.username=root
+        spring.datasource.password=9911
+        #mysql8.0 以上的版本
+        spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+
+&gt; 解决favicon加载的问题
+
+    &lt;link rel=&quot;shortcut icon&quot;  href=&quot;../rescourses/favicon.ico&quot; th:href=&quot;@&#123;/static/favicon.ico&quot;/&gt;    
+
+    this day ,i&#39;m learn the English for a while ,and than ,i begin to learn the spring boot 
+    of the jdbc and mybatis but now i can&#39;t learn finished 
+
+
+&gt; 数据库添加的过程
+
+    controller: 用于页面跳转，从浏览器地址栏到具体的templates里的页面映射
+    userCntroller:控制层
+    service:业务层
+    dao:用户管理持久层？
+
+
+    自己的方法：使用mybatis持久层
+    controller 用于跳转到对应的页面，templates里的页面不能直接通过url直接访问，只能通过controller跳转
+    @Controller
+    public class UserController &#123;
+
+        @RequestMapping(&quot;/user&quot;)
+        public String showPage()&#123;
+            return &quot;adduser.html&quot;;
+        &#125;
+    &#125;
+
+    页面的表单提交
+    &lt;form action=&quot;addUser&quot; method=&quot;post&quot;&gt;
+            &lt;input type=&quot;text&quot; name=&quot;Sno&quot;/&gt;&lt;/br&gt;
+            &lt;input type=&quot;text&quot; name=&quot;Sname&quot;/&gt;&lt;/br&gt;
+            &lt;input type=&quot;submit&quot; value=&quot;OK&quot;/&gt;
+    &lt;/form&gt;
+
+
+    处理添加逻辑的Servlet？controller？
+    //@RestController返回字符串
+    @RestController
+
+    public class AddUser &#123;
+
+        //@Autowired 导入UserMapper使用mybatis添加到数据库，具体过程不接
+        @Autowired
+        private UserMapper userMapper;
+
+        //可能为get或者post，可以直接使用 @RequestMapping(&quot;/addUser&quot;) 接受
+        @RequestMapping(&quot;/addUser&quot;)
+        //此处参数可以直接添加到对象中，但属性名字该是一致的，JavaBean中空参构造和setter必不可少
+        public String showInfo(User user)&#123;
+            user.setSsex(&#39;F&#39;);
+            user.setSage(20);
+            user.setAdept(&quot;SC&quot;);
+            userMapper.insert(user);
+            return &quot;ok&quot;;
+        &#125;
+    &#125;
+
+
+
+    import com.Merlin.hello.model.User;
+    @Mapper
+    public interface UserMapper &#123;
+
+    //    @Select(&quot;SELECT * FROM CITY WHERE state = #&#123;state&#125;&quot;)
+    //    City findByState(@Param(&quot;state&quot;) String state);
+    //mybatis 添加到数据库中，查询，返回结果如何构造，还未可知
+        @Insert(&quot;insert into student (sno,sname,ssex,sage,sdept) values(#&#123;sno&#125;,#&#123;sname&#125;,#&#123;ssex&#125;,#&#123;sage&#125;,#&#123;sdept&#125;)&quot;)
+        void insert(User user);
+
+    &#125;
+
+&gt; 超链接请求永远都是GET请求
+
+## mybatis
+
+&gt; mybatis启动器依赖添加 ,MySQL-connector 数据库连接器
+
+    &lt;dependency&gt;
+        &lt;groupId&gt;org.mybatis.spring.boot&lt;/groupId&gt;
+        &lt;artifactId&gt;mybatis-spring-boot-starter&lt;/artifactId&gt;
+        &lt;version&gt;2.0.1&lt;/version&gt;
+    &lt;/dependency&gt;
+
+&lt;!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java --&gt;
+        &lt;dependency&gt;
+            &lt;groupId&gt;mysql&lt;/groupId&gt;
+            &lt;artifactId&gt;mysql-connector-java&lt;/artifactId&gt;
+            &lt;version&gt;8.0.19&lt;/version&gt;
+        &lt;/dependency&gt;
+
+&gt; 数据源配置，.yml格式演示   !!! :必须为英文符号，且后有一个空格  (可能更为还用)
+
+    spring:
+        datasource:
+            url: jdbc:mysql://localhost:3306/jxgl?useSSL=false&amp;serverTimezone=UTC&amp;useUnicode=true&amp;characterEncoding=utf-8
+            username: root
+            password: 9911
+            driver-class-name: com.mysql.cj.jdbc.Driver
+            //如果使用Druid数据源:
+            //type: com.alibaba.druid.pool.DruidDataSource
+    #mysql8.0 以上的版本
+    //如果使用Druid数据源，则spring:
+    //                       datasource:
+    //                          type: com.alibaba.druid.pool.DruidDataSource
+
+
+&gt; 配置Maven的generator  可能使用不了（制作记录，并没有在项目中测试）
+
+    依赖添加
+    &lt;build&gt;
+            &lt;plugins&gt;
+                &lt;plugin&gt;
+                    &lt;groupId&gt;org.mybatis.generator&lt;/groupId&gt;
+                    &lt;artifactId&gt;mybatis-generator-maven-plugin&lt;/artifactId&gt;
+                    &lt;version&gt;1.3.5&lt;/version&gt;
+
+                    &lt;dependency&gt;
+                        &lt;groupId&gt;mysql&lt;/groupId&gt;
+                        &lt;artifactId&gt;mysql-connector-java&lt;/artifactId&gt;
+                        &lt;version&gt;8.0.19&lt;/version&gt;
+                    &lt;/dependency&gt;
+
+                    &lt;!-- 配置文件制定路径 --&gt;
+                    &lt;configuration&gt;
+                        &lt;configurationFile&gt;$&#123;project.basedir&#125;/src/mian/rescources/generatorConfig.xml&lt;/configurationFile&gt;
+                        &lt;verbose&gt;true&lt;/verbose&gt;
+                        &lt;overwrite&gt;true&lt;/overwrite&gt;
+                    &lt;/configuration&gt;
+
+                &lt;/plugin&gt;
+            &lt;/plugins&gt;
+    &lt;/build&gt;
+
+    配置文件
+    generatorConfig.xml(没有)
+    src/mian/rescources/generatorConfig.xml  路径
+
+
+    配置文件的DAD文件 可能报错需要手动添加  
+    File-&gt;Settings-&gt;Language&amp;Framework-&gt;Schemas and DTDs-&gt;+-&gt;url-&gt;file 浏览选择DTD 文件
+
+
+&gt; 
+
+
+
+
+---
+
+# 2020.7.15 日所学内容
+&gt; 整合Servlet（不推荐），freemarker依赖添加失败，Thymeleaf的使用（重点）
+
+## 整合Servlet
+&gt; 1.修改POM.xml文件，添加JSP引擎和JSTL标签库
+
+    spring boot 内置的tomcat中没有JSP依赖,需要引入JSP引擎依赖
+
+        &lt;dependency&gt;
+            &lt;groupId&gt;org.apache.tomcat.embed&lt;/groupId&gt;
+            &lt;artifactId&gt;tomcat-embed-jasper&lt;/artifactId&gt;
+        &lt;/dependency&gt;
+
+    添加JSTL坐标依赖
+        &lt;dependency&gt;
+            &lt;groupId&gt;javax.servlet&lt;/groupId&gt;
+            &lt;artifactId&gt;jstl&lt;/artifactId&gt;
+        &lt;/dependency&gt;    
+
+
+&gt; 2.创建webapp目录
+
+    webapp目录需要创建在main的根目录下，存放JSP,main/webapp/*.jsp
+    main/webapp/WEB-INF  存放一些其他内容，不允许直接访问
+&gt; 3.标记为web目录
+
+    在IDEA正版的Project Structure中设置即可
+
+&gt; 4.创建JSP
+
+    #JSP配置视图解析器，spring boot默认为thymeleaf页面
+    #页面默认前缀目录
+    spring.mvc.view.prefix=/WEB-INF/jsp/
+    #页面默认后缀目录
+    spring.mvc.view.suffix=.jsp
+    #这个是关闭thymeleaf缓存
+    spring.thymeleaf.cache=false　　　　
+    #关闭thymeleaf模板
+    spring.thymeleaf.enabled = false　
+
+&gt; 如果想上方这样设置，就不能正常访问rescources里的内容，而只能访问定义在/WEB-INF/jsp/里的内容
+
+    web.xml
+    &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+    &lt;web-app xmlns=&quot;http://xmlns.jcp.org/xml/ns/javaee&quot;
+            xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;
+            xsi:schemaLocation=&quot;http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd&quot;
+            version=&quot;4.0&quot;&gt;
+    &lt;/web-app&gt;
+
+
+    /*
+        JSP页面跳转Controller
+    */
+
+    //页面跳转，需要视图解析器
+    @Controller
+    public class JspPageController &#123;
+    //    页面跳转
+
+        @GetMapping(&quot;/&#123;page&#125;&quot;)
+        public String showPage(@PathVariable String page)&#123;
+            return page;
+        &#125;
+    &#125;
+
+&gt; 如果在IDEA中，项目结构为聚合工程，那么在运行jsp是需要指定项目路径的
+    （sourses-&gt;java-idea-&gt;hello（本项目））这个地址，在运行按钮旁边的选中中，找到启动类，即可选择
+
+    本项目可能不需要设置，因为不为聚合项目
+    值得注意的是，在配置文件中的设置，导致rescoueces中的文件不能访问，只能访问当前jsp目录
+    如果需要更改，记得要注释掉jsp整合时的文件
+
+
+&gt; 在IDEA中配置spring boot 对jsp页面的支持
+
+    （1）pom增加依赖：
+
+    &lt;!--springboot tomcat jsp 支持开启--&gt;
+    &lt;dependency&gt;
+        &lt;groupId&gt;org.apache.tomcat.embed&lt;/groupId&gt;
+        &lt;artifactId&gt;tomcat-embed-jasper&lt;/artifactId&gt;
+    &lt;/dependency&gt;
+
+    &lt;dependency&gt;
+        &lt;groupId&gt;javax.servlet&lt;/groupId&gt;
+        &lt;artifactId&gt;jstl&lt;/artifactId&gt;
+        &lt;scope&gt;compile&lt;/scope&gt;  //这块需要吗？大多数地方看到都是不需要的
+    &lt;/dependency&gt;
+
+    （2）配置jsp的放置位置
+
+    a.如果用的是yml配置，如下配置：
+
+    spring:
+        mvc:
+        view:  
+            prefix: /WEB-INF/jsp/ 
+            suffix: .jsp
+
+    b.如果用的是properties配置，如下配置：
+    spring.mvc.view.prefix=/WEB-INF/jsp/
+    spring.mvc.view.suffix=.jsp 
+    spring.thymeleaf.cache=false　　　　//这个是关闭thymeleaf缓存
+    spring.thymeleaf.enabled = false　 //关闭thymeleaf模板
+    （3）springboot 利用工具搭建时，是没有webAPP等目录的，需要手动创建以下目录：
+    （4）如上，已经是完成了。第四步，写个controller访问。注意别加注解@ResponeBody 或者@RestController
+
+    @Controller
+    public class IndexController &#123;
+        @RequestMapping(&quot;/index&quot;)
+        public String index()&#123; 
+        return &quot;index&quot;;
+        &#125;
+    &#125;
+
+
+    补充说明：由于本次配置使用的开发工具是IDEA，而该开发工具默认没有开启创建jsp页面的功能，所以需要使用者手动配置一下。配置步骤整理如下：
+    左上角，file中点击project Structure项，在Modules选项卡中，找到本项目，在本项目下添加web。
+
+    然后你会发现在创建的时候，可以直接创建JSP模版了
+
+
+## spring boot 整合 Freemarker   （模板视图和thymeleaf类似） 
+
+    &lt;!--导入不了原因未知--&gt;
+
+## thymeleaf 
+[thymeleaf](https://www.thymeleaf.org/)
+
+    thymeleaf一个用于Web和独立环境的现代服务器端Java模板引擎。
+
+    Thymeleaf的主要目标是带来优雅自然模板对于您的开发工作流程，
+    -HTML可以在浏览器中正确显示，也可以作为静态原型工作，允许在开发团队中进行更强的协作。
+
+    thymeleaf可以处理html,xml.js,css,甚至纯文本
+
+    有了Spring框架的模块、与您最喜欢的工具的大量集成以及插入您自己的功能的能力，
+    Thymeleaf是现代HTML 5 JVM Web开发的理想选择，尽管它可以做更多的事情。
+
+&gt; thymeleaf是原生的，不依赖于标签库，可以接受为html模板进行编辑和数据渲染，
+        thymeleaf和servlet没有规范耦合，所以可以涉及jsp无法涉及的领域
+
+    Thymeleaf为模板引擎，为html模板实现数据渲染，单体项目中需要视图层的较为适用
+
+    前后端分离的项目，后端只需返回数据接口即可，对视图层的要求不高，
+        Thymeleaf作用区别不大，在这种情况下
+
+&gt; Thymeleaf 导入启动器，使用标记进行数据渲染
+
+    Thymeleaf启动器依赖添加
+
+    &lt;dependency&gt;
+        &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;
+        &lt;artifactId&gt;spring-boot-starter-thymeleaf&lt;/artifactId&gt;
+    &lt;/dependency&gt;
+
+    //！！！！！！如果在配置文件中，修改过默认配置为jsp文件件，一定要注释掉，切记！！！！！！
+
+    templates 文件夹中的内容，不允许直接访问，只能使用Controller来跳转
+    /*
+    ThymeleafPageController
+    */
+    @Controller
+    public class ThymeleafPageController &#123;
+
+        @GetMapping
+        public String showPage(Model model)&#123;
+            //此处的函数名一定不要打错了！！！ ！！！
+            model.addAttribute(&quot;msg&quot;,&quot;Hello ThymeleafPageController&quot;);
+            return &quot;index&quot;;
+        &#125;
+    &#125;
+
+    在html页面中，使用el表达式，将数据填入到页面当中
+    &lt;span th:text=&quot;$&#123;msg&#125;&quot;&gt;&lt;/span&gt;&lt;/br&gt;
+
+
+&gt; Thymeleaf中页面的类el表达式，但是使用的限制较多——仅限于标签内，使用th:~~,其他格式都不能渲染相应的数据
+
+    在html标签中该有以下的 命名空间xmlns:th=&quot;http://www.thymeleaf.org&quot;
+    &lt;html xmlns:th=&quot;http://www.thymeleaf.org&quot;&gt;
+
+    th:text 在页面中输出值(渲染数据),标签内的值会替换一对标签之间的值
+    &lt;span th:text=&quot;$&#123;msg&#125;&quot;&gt;啊啊啊&lt;/span&gt;&lt;/br&gt;    这里只显示$&#123;msg&#125;的内容！！！
+
+
+    th:value 可以将一个值放入到input标签的value中，且仅能使用th:value才能渲染数据
+    &lt;input th:value=&quot;$&#123;msg&#125;&quot;&gt;
+
+&gt; Thymeleaf 提供一些内置对象，课直接在模板中使用，这些对象是以#引用的
+
+    使用内置对象的语法
+
+    引用内置对象使用“#”
+    大部分内置对象名称都以s结尾，如：strings字符串,numbers数字,dates日期
+
+&gt; strings   $&#123;#strings.~(key)&#125;
+
+    $&#123;#strings.isEmpty(key)&#125; 返回key所对应的value是否为空，返回true或false
+
+    $&#123;#strings.contains(msg,&#39;T&#39;)&#125; 判断字符串中是否含有字符&#39;T&#39;
+
+    $&#123;#strings.startWith(msg,&#39;T&#39;)&#125; 是否以某子串开头，是返回true，否则返回false
+
+    $&#123;#strings.endWith(msg,&#39;T&#39;)&#125; 是否以某子串结尾，是返回true，否则返回false
+
+    $&#123;#strings.length(msg)&#125; 返回字符串的长度
+
+    $&#123;#strings.substring(msg,2)&#125; 从字符串2的位置截取到末尾
+
+    $&#123;#strings.substring(msg,2，5)&#125; 从字符串2的位置截取到字符串5的位置
+
+    $&#123;#strings.toUpperCase(msg)&#125; 转换为大写
+
+    $&#123;#strings.toLowerCase(msg)&#125; 转换为小写
+
+
+&gt; dates  $&#123;dates.~(key)&#125;
+
+    $&#123;dates.format(key)&#125;  日期数据格式化为浏览器默认语言格式
+    $&#123;dates.format(ket,&#39;yyyy/mm/dd&#39;)&#125;  以某种指定格式格式化日期数据
+    $&#123;dates.year(ket)&#125;
+    $&#123;dates.month(ket)&#125;
+    $&#123;dates.day(ket)&#125;
+    其余自行测试
+
+&gt; th:if 条件判断 
+
+    example：
+    &lt;span th:if=&quot;$&#123;sex&#125; == &#39;M&#39;&quot;&gt;男&lt;/span&gt;
+    &lt;span th:if=&quot;$&#123;sex&#125; == &#39;F&#39;&quot;&gt;女&lt;/span&gt;
+
+
+&gt; th:switch/th:case  匹配显示内容，如果有多个内容匹配，则只显示第一个
+&gt; th:case=&quot;*&quot; 则意为default 
+
+    &lt;div th:switch=&quot;$&#123;id&#125;&quot;&gt;
+        &lt;span th:case=&quot;1&quot;&gt;id=1&lt;/span&gt;
+        &lt;span th:case=&quot;2&quot;&gt;id=2&lt;/span&gt;
+        &lt;span th:case=&quot;3&quot;&gt;id=3&lt;/span&gt;
+        &lt;span th:case=&quot;*&quot;&gt;id=default&lt;/span&gt;
+    &lt;/div&gt;
+
+&gt; 在thymeleaf中所有数据都是使用字符串比较
+
+&gt; th:each=&quot;迭代器:迭代集合&quot; 迭代器，用于循环遍历   th:text=&quot;$&#123;迭代器.属性名&#125;&quot; 可以去出相应的内容
+
+
+    &lt;table border=&quot;1&quot; width=&quot;50%&quot;&gt;
+        &lt;tr&gt;
+            &lt;th&gt;ID&lt;/th&gt;
+            &lt;th&gt;Name&lt;/th&gt;
+            &lt;th&gt;Age&lt;/th&gt;
+        &lt;/tr&gt;
+
+
+        &lt;tr th:each=&quot;t : $&#123;list&#125;&quot;&gt;
+            &lt;th th:text=&quot;$&#123;t.id&#125;&quot;&gt;&lt;/th&gt;
+            &lt;th th:text=&quot;$&#123;t.name&#125;&quot;&gt;&lt;/th&gt;
+            &lt;th th:text=&quot;$&#123;t.age&#125;&quot;&gt;&lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/table&gt;
+
+&gt; 迭代的状态变量 th:each=&quot;迭代器,迭代器状态对象:迭代集合&quot;
+
+        index:当前迭代器的索引从0开始
+        count:当前迭代器的技术从1开始
+        size:别迭代对象的长度
+        odd/even:布尔值，当前循环是否是偶数/奇数 从0开始
+        first:布尔值，当前循环是否是第一条，如果是返回true
+        last:布尔值，当前循环是否是最后一条，如果是返回true
+
+        &lt;th th:text=&quot;$&#123;迭代器状态变量获取对象.上述属性&#125;&quot;&gt;&lt;/th&gt;
+
+&gt; th:each=&quot;m:map&quot; 迭代map ,迭代出来的m为对象的地址，使用.取到想要的内容
+
+    th:text=&quot;$&#123;m.key&#125; : $&#123;m.value.id&#125; : $&#123;m.value.name&#125;: $&#123;m.value.age&#125;&quot;
+
+&gt; 操作域对象
+
+注入request对象 HttpServletRequest request
+
+    @GetMapping(&quot;/index&quot;)
+    public String hello(Model model,HttpServletRequest request)&#123;
+    //request
+        request.setAttribute(&quot;req&quot;,&quot;req&quot;);
+    //session
+        request.getSession.setAttribute(&quot;reqs&quot;,&quot;reqs&quot;);
+    //context
+        request.getSession().getServletCOntext().setAttribute(&quot;reqsc&quot;,&quot;reqsc&quot;);
+
+        return &quot;index.html&quot;;
+    &#125;
+
+
+&gt; 注意request均为#，session和context可以有两种方式，记得仔细辨别，加以区分
+
+HttpServletRequest req
+
+        th:text=&quot;$&#123;#request.getAttribute(&#39;req&#39;)&#125;&quot;
+        th:text=&quot;$&#123;#httpServletRequest.getAttribute(&#39;req&#39;)&#125;&quot;
+
+
+HttpSession reqs
+
+        th:text=&quot;$&#123;session.reqs&#125;&quot;
+        th:text=&quot;$&#123;#httpSession.getAttribute(&#39;reqs&#39;)&#125;&quot;
+
+
+HttpContext reqsc
+
+        th:text=&quot;$&#123;application.reqsc&#125;&quot;
+        th:text=&quot;$&#123;#servletContext.getAttribute(&#39;reqsc&#39;)&#125;&quot;
+
+
+&gt; URL 表达式  @&#123;&#125;  
+
+    绝对路径，要带有协议
+    th:href=&quot;@&#123;http://www.baidu.com&#125;&quot;
+
+    &gt; 超链接controller使用GetMapping(&quot;/show&quot;)
+    &gt; 需要进行测试，此处暂无
+
+    相对路径
+        相对于当前项目的根目录
+        th:href=&quot;@&#123;/show&#125;&quot;
+
+        相对于服务器路径的根目录
+        th:href=&quot;@&#123;~/访问项目的名称/项目名称下的资源&#125;&quot;
+
+--- 
+
+&gt; URL中参数传递
+
+    &gt; 超链接controller使用GetMapping(&quot;/show&quot;)
+
+    在普通格式的URL中传递参数
+    @GetMapping(&quot;/show&quot;)
+    public String show(String id,String name)&#123;
+        System.out.println(id+&quot;:&quot;+name);
+        return &quot;index&quot;;
+    &#125;
+
+    //常规方式？ &amp; 连接
+    th:href=&quot;@&#123;/show？id=1&amp;name=merlin&#125;&quot;
+    //最后的单引号该放在哪？？？？？？？
+    th:href=&quot;@&#123;&#39;/show？id=&#39; + $&#123;id&#125; + ’&amp;name=merlin‘&#125;&quot;
+    th:href=&quot;@&#123;&#39;/show？id=&#39; + $&#123;id&#125; + &#39;&amp;name=&#39;+$&#123;name&#125; &#125;&quot;
+    //() ,使用逗号分隔
+    th:href=&quot;@&#123;/show(id=1,name=merlin)&#125;&quot;
+    th:href=&quot;@&#123;/show(id=$&#123;id&#125;,name=merlin)&#125;&quot;
+    th:href=&quot;@&#123;/show(id=1,name=$&#123;name&#125;)&#125;&quot;
+    th:href=&quot;@&#123;/show(id=$&#123;id&#125;,name=$&#123;name&#125;)&#125;&quot;
+
+
+
+
+    restful 格式的URL中传递参数
+
+    th:href=&quot;@&#123;/show/&#123;id&#125;(id=1)&#125;&quot;
+    @GetMapping(&quot;/show/&#123;id&#125;&quot;)
+        public String show(@PathVariable String id)&#123;
+            System.out.println(id+&quot;:&quot;+name);
+            return &quot;index&quot;;
+        &#125;
+
+    th:href=&quot;@&#123;/show/&#123;id&#125;/&#123;name&#125;(id=1,name=merlin)&#125;&quot;
+    @GetMapping(&quot;/show/&#123;id&#125;/&#123;name&#125;&quot;)
+        public String show(@PathVariable String id,@PathVariable String name)&#123;
+            System.out.println(id+&quot;:&quot;+name);
+            return &quot;index&quot;;
+        &#125;
+
+
+    //混合使用，id使用restful格式传递，name用常规方式传递
+    //在括号中传递的，就可以直接使用el表达式来取值，在常规的地址中只能使用字符串拼接方式
+    th:href=&quot;@&#123;/show/&#123;id&#125;(id=1,name=merlin)&#125;&quot;
+    th:href=&quot;@&#123;/show/&#123;id&#125;(id=$&#123;id&#125;,name=merlin)&#125;&quot;
+    th:href=&quot;@&#123;/show/&#123;id&#125;(id=$&#123;id&#125;,name=$&#123;name&#125;)&#125;&quot;
+
+    th:href=&quot;@&#123;/show/&#123;id&#125;/&#123;name&#125;(id=1,name=merlin)&#125;&quot;
+    th:href=&quot;@&#123;/show/&#123;id&#125;/&#123;name&#125;(id=$&#123;id&#125;,name=merlin)&#125;&quot;
+    th:href=&quot;@&#123;/show/&#123;id&#125;/&#123;name&#125;(id=$&#123;id&#125;,name=$&#123;name&#125;)&#125;&quot;
+
+
+&gt; tymeleaf 配置文件
+
+    //配置文件等号之间不要有空格，切记！！！ ！！！
+    spring.thymeleaf.prefix=classpath:/templates/ 前缀路劲  此处默认templates目录下
+    spring.thymeleaf.suffix=.html  后缀名    默认后缀名为.html
+    spring.thymeleaf.mode=HTML5  配置视图模板类型，默认为HTML4？？？？？？
+    spring.thymeleaf.encoding=utf-8 配置编码格式，默认utf-8
+    spring.thymeleaf.servlet.content-type=text/html 响应视图类型默认为text/html
+    //默认是true，开发时最好关闭缓存
+    spring.thymeleaf.cache=false 配置页面缓存，默认为true
+
+
+
+
+---
+
+
+
+
+# 2020.7.14 日所学内容
+
+&gt; filter,listener,SpringBoot 访问静态资源,文件上传，配置上传容量
+
+## filter
+&gt; 整合方式一：使用注解整合@WebFilter，@ServletComponentScan
+
+    //@WebFilter(filterName = &quot;firstFilter&quot;,urlPatterns = &#123;&quot;*.do&quot;,&quot;*.jsp&quot;&#125;)
+    @WebFilter(filterName = &quot;firstFilter&quot;,urlPatterns = &quot;/first&quot;)
+    public class FirstFilter implements Filter&#123;
+
+        @Override
+        public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException &#123;
+            System.out.println(&quot;enter the first filter&quot;);
+            filterChain.doFilter(servletRequest,servletResponse);
+            System.out.println(&quot;left the first filter&quot;);
+        &#125;
+    &#125;
+
+    filter 数据 servlet 的一个子技术，在启动类中有下方的注解
+        @ServletComponentScan //在spring boot 启东时会扫描@WebServlet注解，并将该类实例化
+        时可以处理filter
+
+
+&gt; 整合方式二：使用组件注册的方式
+
+    /*
+        整合方式二：使用组件注册的方式
+    */
+
+    public class SecondFilter implements Filter &#123;
+
+
+        @Override
+        public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException &#123;
+            System.out.println(&quot;enter the second filter&quot;);
+            filterChain.doFilter(servletRequest,servletResponse);
+            System.out.println(&quot;left the second filter&quot;);
+        &#125;
+    &#125;
+
+    @Configuration
+    public class FilterConfig &#123;
+
+        @Bean
+        public FilterRegistrationBean getFilterRegistrationBean()&#123;
+            FilterRegistrationBean bean = new FilterRegistrationBean(new SecondFilter());
+    //        bean.addUrlPatterns(new String[]&#123;&quot;*.jsp&quot;,&quot;*.do&quot;&#125;);
+    //        下方的url一定不要忘记加/
+            bean.addUrlPatterns(&quot;/second&quot;);
+            return bean;
+        &#125;
+    &#125;
+
+
+## listener
+
+&gt; 整合方法一：注解@ServletComponentScan 
+            //在spring boot 启东时会扫描@WebServlet,@WebFilter,@WebListener注解，并将该类实例化
+
+    /*
+        整合listener：注解@ServletComponentScan
+
+    */
+    @WebListener
+    public class FirstListener implements ServletContextListener &#123;
+        @Override
+        public void contextInitialized(ServletContextEvent sce) &#123;
+            System.out.println(&quot;Listener···Init···&quot;);
+        &#125;
+
+        @Override
+        public void contextDestroyed(ServletContextEvent sce) &#123;
+            System.out.println(&quot;Listener···Destory···&quot;);
+        &#125;
+    &#125; 
+
+&gt; 整合方法二：组件注册
+
+    /*
+        整合listener：组件注册方式
+    */
+    public class SecondListener implements ServletContextListener&#123;
+
+            @Override
+            public void contextInitialized(ServletContextEvent sce) &#123;
+                System.out.println(&quot;ListenerSecond···Init···&quot;);
+            &#125;
+
+            @Override
+            public void contextDestroyed(ServletContextEvent sce) &#123;
+                System.out.println(&quot;ListenerSecond···Destory···&quot;);
+            &#125;
+    &#125;
+
+
+    //注册类必须带有该注解@Configuration
+    @Configuration
+    public class ListenerConfig &#123;
+        //慎重使用自动补全的功能，很大程度会出现和函数重名或者不易察觉的不是自己预想中的名字
+        //一定要谨慎，不然该错误很难排查，
+        //如果重名了不可重载的函数或者重载了可重载的函数，都可能造成无法想象的错误
+        @Bean
+        public ServletListenerRegistrationBean getServletRegistrationBean()&#123;
+            ServletListenerRegistrationBean bean = new ServletListenerRegistrationBean(new SecondListener());
+
+            return bean;
+        &#125;
+    &#125;
+
+
+## SpringBoot 访问静态资源
+
+&gt; src&gt;resourses&gt;static|templates
+
+    static 目录存放静态页面，图片资源，静态资源必须存放在static目录下,可直接访问页面和内容
+    templates 中只能存放Thymeleaf动态页面，不推荐使用jsp视图技术，默认使用Thymeleaf来做动态页面
+            且需要Controller做跳转才可访问该文件下的页面！！！！
+
+
+    在static 创建sb.html,http://localhost:8899/sb.html可直接访问
+    也可在Controller中写明跳转地址，和访问什么跳转
+
+
+
+&gt; 此处可能直接定位到templates 文件夹，所以需要相对路径找到对应的static 切记！！！
+
+&gt; 而且return 时一定要带上后缀名，不然也无法跳转（可能是因为没有视图层解析的缘故） 切记！！！
+    @Controller
+    public class PageController &#123;
+
+        //GetMapping和RequestMapping  有什么区别
+        @RequestMapping(&quot;/page&quot;)
+        public String showPage()&#123;
+            System.out.println(&quot;this is sb&quot;);
+            //此处可能直接定位到templates 文件夹，所以需要相对路径找到对应的static 切记！！！
+            return &quot;../static/sb.html&quot;;
+        &#125;
+    &#125;
+
+
+&gt; @GetMapping 和 @RequestMapping  注解的探索
+
+    @GetMapping
+    用于将HTTP GET请求映射到特定处理程序方法的注释。具体来说，@GetMapping是一个作为快捷方式的组合注释
+    @RequestMapping(method = RequestMethod.GET)。
+
+    @PostMapping
+    用于将HTTP POST请求映射到特定处理程序方法的注释。具体来说，
+    @PostMapping是一个作为快捷方式的组合注释@RequestMapping(method = RequestMethod.POST)。
+
+    @RequestMapping:
+    一般情况下都是用@RequestMapping（method=RequestMethod.），因为@RequestMapping可以直接替代以上两个注解，
+    但是以上两个注解并不能替代@RequestMapping，@RequestMapping相当于以上两个注解的父类！
+
+    类似的组合注解还有：
+    @PutMapping、@DeleteMapping、@PatchMapping
+    总结下来就是@PostMapping和@GetMapping都可以用@RequestMapping代替，
+    如果读者怕在映射的时候出错，可以统一写@RequestMapping，当然这样写的话也有弊端，
+    笼统的全用@RequestMapping, 不便于其他人对代码的阅读和理解！还是建议区分开来写！养成良好的代码习惯！
+    ————————————————
+    版权声明：本文为CSDN博主「private_static」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+    原文链接：https://blog.csdn.net/qq_41973208/java/article/details/85008962
+
+
+## springboot 其他可存放静态资源地址
+
+&gt; 以下位置均可存放（未测试）,以下为默认访问及其顺序
+
+    src/main/java/resources/META-INF/resources/
+    src/main/java/resources/resourses/
+    src/main/java/resources/static/
+    src/main/java/resources/public/
+
+&gt; springboot 自定义目录访问
+
+    在配置文件中，使用spring.rescources.static-locations=classpath:/suibian/
+    这里修改了配置，则默认值则没有了，如果需要，
+    则需要添加classpath:/suibian/,classpath:/static/  使用逗号分隔
+    suibian/此目录为在src/main/java/resources/下创建的
+
+
+## springboot 文件上传
+
+&gt; HTML   重点！！！！！！！！！！！！！
+
+    action 为要访问的controller，可以没有&quot;/&quot;,直接给出对应controller 中
+    @PostMapping(&quot;/fileUploadController&quot;)中的名字，这里必须要有&quot;/&quot;,
+    method 为访问的方式，文件上传必须要有enctype=&quot;multipart/form-data&quot;
+    &lt;input type=&quot;file&quot; name=&quot;file&quot;/&gt; 这里的imput name必须和
+    public String fileUpload(MultipartFile file)参数的名字一致！！！ ！！！
+    &lt;form action=&quot;fileUploadController&quot; method=&quot;post&quot; enctype=&quot;multipart/form-data&quot;&gt;
+            &lt;input type=&quot;file&quot; name=&quot;file&quot;/&gt;
+            &lt;input type=&quot;submit&quot; value=&quot;submit&quot; /&gt;
+    &lt;/form&gt;  
+
+&gt; java fileUploadController  
+
+    这里可能spring boot直接包含了spring mvc 所以不需要去pom.xml文件中添加MVC的依赖文件
+    //仅仅返回字符串，不返回网页,如果返回网页，使用@Controller，
+        并且return 字符串必须为带后缀名的页面（templates中或者static中的）
+    @RestController
+
+    public class FileUploadController &#123;
+        //使用post 请求，所以使用@PostMapping(&quot;/fileUploadController&quot;)
+            这里和HTML中的action一致，注意要有&quot;/&quot;,action中可以没有
+        @PostMapping(&quot;/fileUploadController&quot;)
+
+        //此处的MultipartFile file变量名，必须和form表单中提交文件的name相同一致
+            &lt;input type=&quot;file&quot; name=&quot;file&quot;/&gt; 这里的imput name必须和
+            public String fileUpload(MultipartFile file)参数的名字一致！！！ ！！！     
+        public String fileUpload(MultipartFile file) throws IOException &#123;
+            //获取真实文件的地址,getURL(&quot;src/main/resources/static/img&quot;),参数最好为文件中的全路径，不然可能无法访问
+            //在springboot 中 可能只有这一种方法管用 ResourceUtils.getURL(&quot;src/main/resources/static/img&quot;).getPath();
+            //其余的getRealPath方法可能是容器运行地址，c/appdata/tomcat··· ，可能为这种样子的地址
+            String basePath = ResourceUtils.getURL(&quot;src/main/resources/static/img&quot;).getPath();
+            System.out.println(basePath);
+            //E:/sources/Java_idea/hello/src/main/resources/static/img/
+            //此处的路径最后是有&quot;/&quot;,所以在文件创建前不用再添加
+            //transferTo在页面中只能执行一次，如需多次上传不用位置，可以copy，再操作
+            file.transferTo(new File(basePath+file.getOriginalFilename()));
+            //@RestController 才能返回字符串
+            return &quot;OK&quot;;
+        &#125;
+    &#125;
+&gt; 修改文件上传的大小
+
+    默认单个文件上传的大小为 1MB
+    spring.servlet.multipart.max-file-size=2MB  去配置文件中这是传输文件大小
+    默认一次请求中文件上传的总大小为 10MB
+    spring.servlet.multipart.max-request-size=10MB（默认），文件的总大小
+
+
+&gt; 关于路径获取的详细回答
+
+    以前spring mvc项目由于使用的是外部容器跑项目，所以使用request.getRealPath(&quot;./&quot;)方法是可以获取到静态资源路径的。
+    但是spring boot获取的是内部容器的地址，如C:\Users\cjj\AppData\Local\Temp\tomcat-docbase.2424851108757135007.8088\
+
+    我们无法使用request.getRealPath(&quot;./&quot;)获取静态页面资源。
+    但是可以使用ResourceUtils.getFile方法，这样就可以读取模板文件
+    ————————————————
+    版权声明：本文为CSDN博主「canon_in_csdn」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+    原文链接：https://blog.csdn.net/canon_in_csdn/java/article/details/86685739
+
+&gt; java File 类型 转换成 MultipartFile(尚未测试)
+
+    File file = new File(&quot;src/test/resources/input.txt&quot;);
+    FileInputStream input = new FileInputStream(file);
+    MultipartFile multipartFile = new MockMultipartFile(&quot;file&quot;,
+    file.getName(), &quot;text/plain&quot;, IOUtils.toByteArray(input));
+
+    从国外网站上搜到的，IOUtils.toByteArray(input)不识别时，可直接使用上面  FileInputStream 类型的input做第四个参数也是可以的。
+    亲测有效！
+
+&gt; 文件同时上传到两个路径下保存，使用了MultipartFile的transferTo()方法两次，第二次就报错了，应该怎么去解决
+
+    未测试
+
+    因为http post文件流只可以接收读取一次，传输完毕则关闭流。
+    可以把流保存为文件1，然后对文件1进行复制，移动等操作。
+
+
+
+# 2020.7.12 日所学内容
+
+&gt; 启动类，@Controller，注册整合Servlet
+
+## 创建启动类
+&gt; src&gt;java&gt;包名&gt;根目录下创建启动类
+
+    @SpringBootApplication
+    public class HelloApplication &#123;
+
+        @Autowired
+        private static UserMapper userMapper;
+
+
+        public static void main(String[] args) &#123;
+    //        System.out.println(&quot;main&quot;);
+    //        启动类中可能或者不能包含一些其他的内容，仅为启动内容？
+            SpringApplication.run(HelloApplication.class, args);
+        &#125;
+
+    &#125;
+
+&gt; 创建controller
+
+    @Controller 
+
+    @RestController = @controller + @ResponseBody 所有页面不做任何跳转，只返回json格式的字符串
+        @ResponseBody 以json格式的字符串为返回数据，
+
+    官方文档：
+    @RestController is a stereotype annotation that combines @ResponseBody and @Controller.
+    意思是：
+    @RestController注解相当于@ResponseBody ＋ @Controller合在一起的作用。
+    1)如果只是使用@RestController注解Controller，则Controller中的方法无法返回jsp页面，
+        配置的视图解析器InternalResourceViewResolver不起作用，返回的内容就是Return 里的内容。
+        例如：本来应该到success.jsp页面的，则其显示success.
+    2)如果需要返回到指定页面，则需要用 @Controller配合视图解析器InternalResourceViewResolver才行。
+    3)如果需要返回JSON，XML或自定义mediaType内容到页面，则需要在对应的方法上加上@ResponseBody注解。
+
+    &lt;!--hexoPostRenderEscape:&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;package&lt;/span&gt; com.Merlin.hello.controller;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; org.springframework.web.bind.annotation.RequestMapping;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; org.springframework.web.bind.annotation.RestController;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;//处理请求的Controller&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;@RestController&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;class&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;RequestController&lt;/span&gt; &lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;meta&quot;&gt;@RequestMapping(&amp;quot;/helloworld&amp;quot;)&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;public&lt;/span&gt; String &lt;span class=&quot;title&quot;&gt;showHelloWorld&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;()&lt;/span&gt;&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&amp;quot;HelloWOrld!&amp;quot;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;:hexoPostRenderEscape--&gt;
+
+&gt; controller得常用注解
+
+    @RestController = @Controller + @ResponseBody 
+        所有页面不做任何跳转（不返回页面，也无法传输数据到另一个页面），
+        相当于在@Controller上加了@ResponseBody注解，
+        所以InternalResource ViewResolver不起作用，
+        只返回json格式的字符串（即return 中的内容）
+
+        @ResponseBody 只返回json格式字符串数据
+
+    @GetMapping 
+        该注解是@RequestMapping(method=RequestMethod.Get)的缩写
+        仅处理Get请求
+        以下同理
+
+    @PostMapping 
+        该注解是@RequestMapping(method=RequestMethod.Post)的缩写    
+
+    @PutMapping 
+        该注解是@RequestMapping(method=RequestMethod.Put)的缩写
+
+    @DeleteMapping 
+        该注解是@RequestMapping(method=RequestMethod.Delete)的缩写
+
+
+&gt; Spring Boot整合Web层的技术
+
+    整合Servlet方式一：通过注解扫描完成Servlet组件的注册（推荐使用）
+
+    创建Servlet
+    //urlPatterns = &quot;/first&quot;  此处的地址则为访问地址
+    @WebServlet(name = &quot;FirstServlet&quot;,urlPatterns = &quot;/first&quot;)
+    public class FirstServlet extends HttpServlet &#123;
+        @Override
+        protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException &#123;
+            System.out.println(&quot;First Servet······&quot;);
+        &#125;
+    &#125;
+    必要!!!在启动类中添加如下注解
+    @ServletComponentScan //在spring boot 启东时会扫描@WebServlet注解，并将该类实例化
+    如果不添加该注解，则无法访问
+
+
+
+
+    整合Servlet方式二：通过方法完成Servlet组件的注册
+
+    //该注册方法也可以放置在启动类中，就不需要单独写了，17 Spring Boot整合Servlet方法二
+    @Configuration
+    public class ServletConfig &#123;
+        /*
+                完成Servlet组件的注册
+        */
+        @Bean  //相当于xml中Bean标签,ServletRegistrationBean必须返回这个对象
+        public ServletRegistrationBean getServletRegistrationBean()&#123;
+            //注册Servlet，实例化
+            ServletRegistrationBean bean = new ServletRegistrationBean(new SecondServlet());
+            //添加URL访问路径
+            bean.addUrlMappings(&quot;/seconde&quot;);
+            return bean;
+        &#125;
+    &#125;
+
+
+
+
+# 很久之前的内容
+
+&gt; 以下为上一次的内容，每次添加的内容写在最前边，方便查看，提交前在今日内容前写个简短的说明
+
+## IDEA 快捷键
+    //ctrl alt v 自动生成变量定义
+    //shift F6 批量修改全部选中的变量名
+    //shift enter 从任意位直接换到下一行
+    //alt insert 快速生成
+
+## spring boot 必要的pom.xml 文件内容
+    &lt;porject&gt;
+        必须继承springboot 的父级依赖，该项目才为spring boot项目
+        &lt;parent&gt;
+                &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;
+                一个特殊的启动器，提供默认的Maven依赖，常用包依赖的version 可以省去
+                使用starter 添加jar 包，非常方便
+                &lt;artifactId&gt;spring-boot-starter-parent&lt;/artifactId&gt; 
+                &lt;version&gt;2.2.3.BUILD-SNAPSHOT&lt;/version&gt;  选择版本
+                &lt;relativePath/&gt; &lt;!-- lookup parent from repository --&gt;
+        &lt;/parent&gt;
+
+        &lt;dependencies&gt;
+                web 启动器依赖,提供支持开发web
+                &lt;dependency&gt;
+                    &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;
+                    &lt;artifactId&gt;spring-boot-starter-web&lt;/artifactId&gt;
+                &lt;/dependency&gt;
+
+                ？？单元测试
+                &lt;dependency&gt;
+                            &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;
+                            &lt;artifactId&gt;spring-boot-starter-test&lt;/artifactId&gt;
+                &lt;!--            &lt;scope&gt;test&lt;/scope&gt;--&gt;
+                            &lt;exclusions&gt;
+                                &lt;exclusion&gt;
+                                    &lt;groupId&gt;org.junit.vintage&lt;/groupId&gt;
+                                    &lt;artifactId&gt;junit-vintage-engine&lt;/artifactId&gt;
+                                &lt;/exclusion&gt;
+                            &lt;/exclusions&gt;
+                &lt;/dependency&gt;
+        &lt;/dependencies&gt;
+        &lt;!-- spring boot 打包 插件 --&gt;   必须添加
+            可以将spring boot应用程序打包成jar 包的插件,将所有启动应用所需的jar包都包含经历啊，从逻辑上具备了独立运行的条件
+            mvn package 命令打包
+            java -jar 命令运行
+
+            &lt;build&gt;
+                &lt;plugins&gt;
+                    &lt;plugin&gt;
+                        &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;
+                        &lt;artifactId&gt;spring-boot-maven-plugin&lt;/artifactId&gt;
+                    &lt;/plugin&gt;
+                &lt;/plugins&gt;
+            &lt;/build&gt;
+
+    &lt;/porject&gt;       
+
+
+## 如何启动spring boot 项目
+&gt; 启动类：放置在项目Java文件的更目录下，如HelloApplication 的位置
+
+    spring boot的启动类的作用是启动项目，基于Main方法运行
+    启动类在启动时做注解臊面，扫描位置为同包或者子包的注解，启动类应该防御包的根目录下
+
+    启动类上必须有 @SpringBootApplication的注解
+    @SpringBootApplication
+    public class HelloApplication &#123;
+        public static void main(String[] args) &#123;
+            SpringApplication.run(HelloApplication.class, args);
+        &#125;
+
+    &#125;
+
+&gt; 启动类是项目的启动入口
+
+&gt; 启动器是表示 jar 包的坐标
+
+    spring-boot-starter 官方提供了44个启动器
+    spring Boot将功能场景抽取出来做成starter(启动器)，使用时导入非常方便
+    spring-boot-starter   springboot 的核心启动器，包含了自动配置，日志和YAML
+
+    spring-boot-starter-actuator  帮助监控和管理应用
+
+    spring-boot-starter-web    支持全栈的Web开发，包括Tomcat和spring-webmve
+
+    spring-boot-starter-amqp  通过spring-rabbit来支持AMQP协议
+
+    spring-boot-starter-aop 支持面向切面的编程（AOP），包括spring-aop 和AspectJava
+
+&gt; 配置文件 application.properties 或 application.yml(常用)/application.yaml
+
+    同意目录下有两种配置文件先读取.properties，同一属性都配置了，只读取第一次读到的，后读的配置数据不覆盖第一个
+
+    配置文件存放路径：4种   优先级由高到低，config的相对较高
+    当前项目的根目录的/config文件下(如项目根目录所示)
+    当前项目的根目录下
+    项目的resources 目录的/config文件下(如项目resources 目录所示)
+    项目的resources 目录下（一般情况下）
+
+
+    spring-boot-starter 识别配置文件，yaml,而且其他的形如spring-boot-starter-的均包含改启动器不用再次引入
+    application.properties    resources 目录下
+
+    server.port=8888  tocat 监听端口
+    server.host=8877 
+
+    .yml 文件中  大小写敏感，缩进表示层级关系，相同部分只出现一次，例如server；较常用？？？
+            server:
+                port: 8888     冒号后必须有空格
+                host: 8877
+    使用配置文件中的数据时，需要用@Value 注解注入
+    @Value(&quot;$&#123;github.client.secret&#125;&quot;)
+        private String clientSecret;
+
+    占位符
+    语法 $&#123;&#125;
+    random.int 随机生成int   
+
+    $&#123;random.int&#125;
+    $&#123;random.long&#125;
+    $&#123;random.value&#125; 类似UUID的随机数，没有‘-’连接
+    $&#123;random.uuid&#125;  UUID的随机数，没有‘-’连接
+    $&#123;random.int(10)&#125; 10以内的
+    $&#123;random.int(100,200)&#125; 一百到两百之间的
+
+&gt; bootstrap 配置文件，文件位置与application的相同，一般放在rescoues文件下
+
+    spring boot有两种上下文对象，bootstrap和application，上下文共用同样的环境
+    bootstrap是应用程序的父 上下文，sorin优先于application加载
+    bootstrap 主要用于加载从额外的资源加载配置，还可以在本地文件中解密属性，外部属性来源
+    ！！！bootstrap 的属性优先加载，默认不能被本地的相同配置覆盖
+
+    配置文件特征
+    bootstrap 由父ApplicationContext加载，比application优先
+    bootstrap 默认不能被本地的相同配置覆盖
+
+    应用场景
+    application主要用于springboot项目的自动化配置
+    bootstrap:
+        Spring Cloud Config 配置中心时，加载外部配置中心的配置信息
+        一些固定的不能被覆盖的属性
+        加密解密的场景
+
+&gt; springboot 核心注解
+
+    @SpringBootApplication == @SpringBootConfiguration 
+                            + @EnableAutoConfiguration
+                            + @ConponentScan 的组合
+                            + @ConfigurationPropertiesScan 2.2.0版本以后加入的
+
+    @SpringBootConfiguration    @Configuration 注解的派生注解，和@Configuration
+                                的注解功能一直，标注这个类为一个配置类
+                                @SpringBootConfiguration 是 springBoot 的注解
+                                @Configuration   是 spring 的注解
+
+    @Configuration 通过对bean    对象的的操作代替 spring 中的XML文件
+
+    @EnableAutoConfiguration    spring boot 自动配资（auto-configuration）:根据jar
+                                依赖配置spring 应用
+
+                                是@AutoConfigurationPackage和
+                                @Import(AutoConfigurationImportSelector.class)注解的组合
+
+    @AutoConfigurationPackage   自动注入主类包下所有的加了注解的类（@Controller，@Service等），
+                                以及配置类（@Configuration），其余的不能扫描到
+
+
+    @Import(AutoConfigurationImportSelector.class)   //括号内为一个例子，符合第二条
+                                直接导入普通的类
+                                或实现了ImportSelector 接口的类
+                                或实现了ImportBeanDefinitionRegistrar 接口的类
+
+    @ComponentScan              组件扫描，可以制动发现和装配一些Bean
+
+    @ConfigurationPropertiesScan    扫描配置(对象）属性(不是配置文件)
+                                    包含@EnableConfigurationProperties 作用是使
+                                    @ConfigurationProperties 注解类生效
+                                    （加载配置文件，通过前缀定义，配置文件信息封装到Bean对象当中？？？疑问）
+
+## admit 具体提交信息
+&gt; 2020.5.30 21.51
+
+    一些问题，main可能会执行两边，里边的UserMapper 无法正常使用，报空指针异常，DB Browser刷新数据显示不及时
+    集成了mybaties ,连接了mysql,成功写入数据，增加了mysql pom.xml文件，测试通过！
+
+
+&gt; 2020.5.31
+
+## javaBean规范(此项目中可能用不到？)
+    如果我们想在JSP页面中使用标签来操作java类，那么我们所写的java类就必须遵守JavaBean规范，
+    一个JavaBean，是由其属性和方法组成的。
+
+
+
+    1. JavaBean 类必须是一个公共类，即使用关键字 public 声明类。
+
+
+
+    2. JavaBean 类中必须有一个声明为公共的无参构造函数。
+
+    　　JavaBean 本质还是一个java类，在不声明任何构造器的情况下，系统会给它添加一个默认的无参构造器；
+
+    　　如果手动声明了一个构造器，则系统不会添加默认的无参构造器，这时如果不手动添加无参构造器，
+        当创建无参对象时，就会报错，因为找不到无参构造器。
+
+
+
+    3. JavaBean 类中的实例变量必须为私有的，即所有的实例变量都使用关键字 private 声明。
+
+
+
+    4. 必须为 JavaBean 类中的实例变量提供公共的 getter / setter 方法。
+
+    　　只提供 getter 方法的属性，称为只读属性；只提供 setter 方法的属性，称为只写属性。
+
+    　　使用 private 修饰实例变量，可以保证数据安全，其他类无法直接访问这些变量。
+        在 getter / setter 方法中，可以做一些权限控制，数据校验等工作，以保证数据的安全，合法性。
+
+
+
+    5. JavaBean 类中实例属性的命名规则： 实例属性名前两个字母要么都小写，要么都大写。
+
+    　　（1） 属性名前两个字母都小写：将属性名的首字母大写，然后用作 getter / setter 方法中 
+            get / set 的后部分，如属性名为 name, 它的 getter / setter 方法为 getName / setName。
+
+    　　（2） 属性名的第二个字母大写： 将属性名直接用作 getter / setter 方法中 get / set 的后部分，
+            即属性名大小写不变。如属性名为 uName，它的 getter / setter 方法为 getuName / setuName。
+
+    　　（3） 属性名前两个字母都大写：将属性名直接用作 getter / setter 方法中 get / set 的后部分，
+            即属性名大小写不变。如属性名为 IDcode， 它的 getter / setter 方法为 getIDcode / setIDcode。
+
+    　　（4） 属性名首字母大写：将属性名直接用作 getter / setter 方法中 get / set 的后部分，
+            即属性名大小写不变。如属性名为 Ucode， 它的 getter / setter 方法为 getUcode / setUcode。
+            但是这种情况，在应用中会出现找不到属性的错误。
+
+## 数据库连接池
+
+[数据库连接池](http://www.jianshu.com/p/ad0ff2961597)</code></pre>
 
       
 
@@ -314,6 +1707,17 @@ Pipe       | $1    </code></pre>
     <div class="article-info article-info-index">
       
       
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">SpringBoot</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
       
 
       
@@ -364,7 +1768,7 @@ Pipe       | $1    </code></pre>
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2020/08/10/Markdown(1)/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2020/08/11/SpringBoot(10)1/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -378,18 +1782,18 @@ Pipe       | $1    </code></pre>
   
 <nav id="article-nav">
   
-    <a href="/2020/08/10/SingletonPattern(8)1/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2020/08/11/Git(11)/" id="article-nav-newer" class="article-nav-link-wrap">
       <i class="icon-circle-left"></i>
       <div class="article-nav-title">
         
-          Singleton pattern(8)1
+          Git部分命令(11)
         
       </div>
     </a>
   
   
-    <a href="/2020/08/10/How-to-create-hexo-blog(7)/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">How to create hexo blog(7)?</div>
+    <a href="/2020/08/11/FactoryPattern(9)2/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">FactoryPattern(9)2</div>
       <i class="icon-circle-right"></i>
     </a>
   
